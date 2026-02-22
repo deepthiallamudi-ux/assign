@@ -25,4 +25,4 @@ function createCountdown(seconds, onTick, onComplete) {
     };
 }
 
-
+createCountdown(10, time => console.log(`Time left: ${time}s`), () => console.log("Countdown complete!"));

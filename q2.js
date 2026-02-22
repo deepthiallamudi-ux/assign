@@ -17,4 +17,5 @@ function createRateLimiter(limit, interval) {
 }       
  return "Call successful.";
     }
-    createRateLimiter(9, 60000); // Example usage: 5 calls per minute
+    createRateLimiter(9, 60000); 
+    createRateLimiter(5, 30000);

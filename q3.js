@@ -11,3 +11,4 @@ function mySetInterval(callback, delay) {
 function myClearInterval(id) {
     clearTimeout(id);
 }
+myClearInterval(mySetInterval(() => console.log("Hello, World!"), 1000)); 
