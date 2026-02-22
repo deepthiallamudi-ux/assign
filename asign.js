@@ -36,8 +36,11 @@ function createBankAccount() {
     };
 
 
-createBankAccount(600000); // Example usage
+createBankAccount(600000); 
 amount = 5000;
+createBankAccount().deposit(amount);
+createBankAccount().withdraw(amount);   
+
 
 
 
